@@ -25,7 +25,7 @@ fi
 mkdir -p "$android_builddir"
 cd "$android_builddir"
 
-repo init -u https://github.com/Trucrux/trux-bsp-platform -b android-13.0.0_1.2.0-trux -m trux-imx-android-13.0.0_1.2.0.xml
+repo init -u https://github.com/Trucrux/trucrux-bsp-platform -b android-13.0.0_1.2.0-trux -m trux-imx-android-13.0.0_1.2.0.xml
 rc=$?
 if [ "$rc" != 0 ]; then
     echo "---------------------------------------------------"
